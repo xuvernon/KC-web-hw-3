@@ -169,6 +169,7 @@ flex-direction: column;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: #BB9457;
 
  }
  .h1{
@@ -199,4 +200,28 @@ flex-direction: column;
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+.Shoppingcontainer{ 
+   display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 15px;
+  align-items: center;
+ color: #023e8a;}
+.boxs{
+  width:100%;
+  height:200px;
+  background-color: #BB9457;
+  color: white;
+  margin: 15px;
+  padding: 20px;
+  box-shadow: 10px 10px 5px #202020a5;
+  display:flex;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 3px;
+  justify-content: space-between;
+}
+.boxs img:hover{
+  background-color:#795926;
 }

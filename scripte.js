@@ -53,7 +53,8 @@ fantasy.forEach(x => {
 });
 //coffees
 let coffeesArray = [`Iced Americano`,`Matcha`,`Iced Tea`]
-let coffeesArraypic = [`IcedAmericano.jpg`,`Matcha.jpg`,`IcedTea.jpg`]
+let coffees = document.getElementById(`cafe`)
+
 coffeesArray.forEach(x => {
 
     coffees.innerHTML += `<div class="box">
