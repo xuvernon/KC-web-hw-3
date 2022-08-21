@@ -41,8 +41,8 @@ classics.forEach(x => {
         <h4>price</h4>
         <button id = "cartbtn" class ="btn">Add To Cart</button>
     </div>`
-})
-;fantasy.forEach(x => {
+});
+fantasy.forEach(x => {
     fantasybookname.innerHTML += `      
   <div class="box">
         <h1>${x}</h1>
@@ -51,6 +51,22 @@ classics.forEach(x => {
         <button id = "cartbtn" class ="btn">Add To Cart</button>
     </div>`
 });
+//coffees
+let coffeesArray = [`Iced Americano`,`Matcha`,`Iced Tea`]
+let coffeesArraypic = [`IcedAmericano.jpg`,`Matcha.jpg`,`IcedTea.jpg`]
+coffeesArray.forEach(x => {
+
+    coffees.innerHTML += `<div class="box">
+        <h1>${x}</h1>
+        <img src="./pics./basket.png" alt="coffee" >
+        <h4>price</h4>
+        <button id = "cartbtn" class ="btn">Add To Cart</button>
+    </div>`
+});
+
+
+
+
 
 
 //navbar page2
@@ -66,3 +82,4 @@ navbar.classList.add("sticky2")
 navbar.classList.remove("sticky2");
 }
 }
+

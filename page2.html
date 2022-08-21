@@ -43,46 +43,40 @@
 
 
     <div id="navbar2">
-        <a href="#">Books</a>
-        <a href="#">Coffee</a>
-        <a href="#">Flowers</a>
+
+        <div class="dropdown">
+            <a href="#books">Books</a>
+            <div class="dropdown-content">
+              <a href="#Mystery">Mystery</a>
+              <a href="#Classics">Classics</a>
+              <a href="#Fantasy">Fantasy</a>
+            </div>
+        </div>
+        
+    
+
+
+
+        <a href="#Coffee">Coffee</a>
+        <a href="./page1.html">About Us</a>
     </div>
 
 <br>
 
 <div class="center h1">
-    <h1>books:</h1>
-<h2>mystery:</h2>
+    <h1 id="books">books:</h1>
+<h2 id="Mystery">Mystery:</h2>
 <div class="container" id="mysterybookname"></div>
-<h2>classics:</h2>
+<h2 id="Classics">Classics:</h2>
 <div class="container" id="classicsbookname"></div>
-<h2>fantasy:</h2>
+<h2 id="Fantasy">Fantasy:</h2>
 <div class="container" id="fantasybookname"></div>
 </div>
 <hr>
 
 <div class="center h1">
-    <h1>Coffee:</h1>
-<div class="container">
-    <div class="box">
-        <h1>Coffee</h1>
-        <div id ="picture"></div>
-        <h4>price</h4>
-        <button id = "cartbtn" class ="btn">Add To Cart</button>
-    </div>
-</div>
-</div>
-
-<div class="center h1">
-    <h1>Flowers:</h1>
-<div class="container">
-    <div class="box">
-        <h1>Flowers</h1>
-        <div id ="picture"></div>
-        <h4>price</h4>
-        <button id = "cartbtn" class ="btn">Add To Cart</button>
-    </div>
-</div>
+    <h1 id="Coffee">Coffee:</h1>
+<div class="container"></div>
 </div>
 
 
@@ -91,7 +85,7 @@
 
 
     <div class="footer">
-        <a href="./page1.html"><button class="btn">Back</button></a>
+        
     </div>
 
 
