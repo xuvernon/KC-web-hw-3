@@ -1,35 +1,56 @@
-let contactUs = document.getElementById(`contactus`)
-let searchValue = document.getElementById(`inputsearch`).value //search value use an if statment
+
+//let searchValue = document.getElementById(`inputsearch`).value search value use an if statment
 // let SuggestionsValue = document.getElementById(`inputvalue`)
 // let error0 = document.getElementById(`error`)
+
+//button page1
+
+function Submit(){
+    let contactUs = document.getElementById(`contactus`)
+        contactUs.innerHTML = `<h1>Thank You For Contacting Us!</h1>`
+    // put a if statment --> when the input is empty show an error alert
+}
+
+
+
+
+//products
 let mystery = [` A Good Girl's Guide to Murder`,` A Forgotten Murder`,` Murder on the Orient Express`]
 let classics = [ `The Great Gatsby`,`The Count of Monte Cristo`, `The Catcher in the Rye`] 
 let fantasy = [`Six of Crow`, `The Lord of the Rings`,`Harry Potter and the Half-Blood Prince`]
 
-
-
 let mysterybookname = document.getElementById(`mysterybookname`)
-let classicsbookname = document.getElementById(`mysterybookname`)
-let fantasybookname = document.getElementById(`mysterybookname`)
+let classicsbookname = document.getElementById(`classicsbookname`)
+let fantasybookname = document.getElementById(`fantasybookname`)
 
 
-//button page1
-function Submit(){
-   
-        contactUs.innerHTML = `<h1>Thank You For Contacting Us!</h1>`
-    // put a if statment --> when the input is empty show an error alert
-}
 mystery.forEach(x => {
-  bookname.innerHTML += `      
+    mysterybookname.innerHTML += `      
   <div class="box">
         <h1>${x}</h1>
-     
+        <div id ="picture"></div>
         <h4>price</h4>
         <button id = "cartbtn" class ="btn">Add To Cart</button>
     </div>`
 });
-//    <img src="${x}" alt="book" width="200px">
-
+classics.forEach(x => {
+    classicsbookname.innerHTML += `      
+  <div class="box">
+        <h1>${x}</h1>
+        <img src="${x}" alt="book" width="200px">
+        <h4>price</h4>
+        <button id = "cartbtn" class ="btn">Add To Cart</button>
+    </div>`
+})
+;fantasy.forEach(x => {
+    fantasybookname.innerHTML += `      
+  <div class="box">
+        <h1>${x}</h1>
+        <img src="${x}" alt="book" width="200px">
+        <h4>price</h4>
+        <button id = "cartbtn" class ="btn">Add To Cart</button>
+    </div>`
+});
 
 
 //navbar page2
