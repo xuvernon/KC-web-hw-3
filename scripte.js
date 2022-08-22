@@ -54,19 +54,8 @@ fantasy.forEach(x => {
 let cartbtn = document.getElementById(`cartbtn`)
  let shopbox = document.getElementById(`shopbox`)
 function btnc() {
-    coffeesArray.forEach(x => {
 
-        shopbox.innerHTML += `
-        <div class="boxs">
-            <img src="./products/IcedTea.jpg" alt="" width="250px">
-            <div class="center">
-            <h1>${x}</h1>
-            <p>2.000kwd</p>
-            </div>
-            <img src="./pics/trash.png" width="45px">
-        </div>
-    `
-    });
+   
    
     
 }
