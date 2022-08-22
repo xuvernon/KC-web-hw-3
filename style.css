@@ -43,7 +43,7 @@ flex-direction: column;
     /* justify-content: center; */
 }
 
-#navbar1 {
+/* #navbar1 {
     overflow: hidden;
     background-color: #023e8a;
     box-shadow: 12px 12px 12px #aaaaaa;
@@ -62,7 +62,7 @@ flex-direction: column;
 }
 #navbar1 a:hover {
     background-color: #0077B6;
-  }
+  } */
   .btn{
     font-size: 18px;
     background-color: #795926;
@@ -104,7 +104,7 @@ flex-direction: column;
  }
  
   
-   #navbar2 {
+   #navbar {
     overflow: hidden;
     background-color: #023e8a;
     box-shadow: 12px 12px 12px #aaaaaa;
@@ -113,7 +113,7 @@ flex-direction: column;
   }
   
 
-#navbar2 a {
+#navbar a {
     float: left;
     color: #BB9457;
     text-align: center;
@@ -121,10 +121,10 @@ flex-direction: column;
     text-decoration: none;
     font-size: 17px;
 }
-#navbar2 a:hover {
+#navbar a:hover {
     background-color: #0077B6;
   }
-  .sticky2 {
+  .sticky {
     position: fixed;
     top: 0;
     width: 100%;
