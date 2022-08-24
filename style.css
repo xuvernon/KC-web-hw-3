@@ -43,26 +43,6 @@ flex-direction: column;
     /* justify-content: center; */
 }
 
-/* #navbar1 {
-    overflow: hidden;
-    background-color: #023e8a;
-    box-shadow: 12px 12px 12px #aaaaaa;
-    width: 100%;
-    z-index: 1;
-  }
-  
-
-#navbar1 a {
-    float: left;
-    color: #BB9457;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-#navbar1 a:hover {
-    background-color: #0077B6;
-  } */
   .btn{
     font-size: 18px;
     background-color: #795926;

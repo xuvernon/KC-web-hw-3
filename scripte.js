@@ -14,13 +14,17 @@ function Submit(){
 
 
 //button
-let cartbtn = document.getElementById(`cartbtn`)
- let shopbox = document.getElementById(`shopbox`)
+let cartbtn = document.getElementsByClassName(`cartbtn`)
+//  let shopbox = document.getElementById(`shopbox`)
+let addcart =[`Add To Cart`,`Add To Cart`,`Add To Cart`,`Add To Cart`,`Add To Cart`,`Add To Cart`,`Add To Cart`,`Add To Cart`,`Add To Cart`]
+
+
+addcart.forEach(x => {
+    cartbtn.innerHTML =`<button class ="btn" onclick ="btnc()">${x}</button>`  
+});
+
 function btnc() {
 
-   
-   
-    
 }
 
 //navbar
