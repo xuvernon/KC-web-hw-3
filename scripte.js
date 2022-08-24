@@ -18,20 +18,20 @@ function Submit(){
 // let fantasy = [`Six of Crow`, `The Lord of the Rings`,`Harry Potter and the Half-Blood Prince`]
 
 let mystery = [
-{name:`A Good Girl's Guide to Murder`, img:``, price:``,btn:``},
- {name:`A Forgotten Murder`, img:``, price:``,btn:``},
- {name:`Murder on the Orient Express`, img:``, price:``,btn:``},
+{name:`A Good Girl's Guide to Murder`, img:`./products/goodgirlsguide.jpg`, price:`2.400`,btn:`Add To Cart`},
+ {name:`A Forgotten Murder`, img:`.`, price:``,btn:``},
+ {name:`Murder on the Orient Express`, img:`./products/aforgottenmurder.jpg`, price:`1.500`,btn:`Add To Cart`},
 ]
 let classics = [ 
-     {name:`The Great Gatsby`, img:``, price:``,btn:``},
-      {name:`Pride and Prejudice`, img:``, price:``,btn:``},
-       {name:`The Catcher in the Rye`, img:``, price:``,btn:``},
+     {name:`The Great Gatsby`, img:`./products/The_Great_Gatsby_Cover_1925_Retouched`, price:``,btn:`Add To Cart`},
+      {name:`Pride and Prejudice`, img:``, price:``,btn:`Add To Cart`},
+       {name:`The Catcher in the Rye`, img:``, price:``,btn:`Add To Cart`},
 ]
 let fantasy = [
     
- {name:`Six of Crow`, img:``, price:``,btn:``},
-  {name:`The Lord of the Rings`, img:``, price:``,btn:``},
-   {name:`Harry Potter and the Half-Blood Prince`, img:``, price:``,btn:``},
+ {name:`Six of Crow`, img:``, price:``,btn:`Add To Cart`},
+  {name:`The Lord of the Rings`, img:``, price:``,btn:`Add To Cart`},
+   {name:`Harry Potter and the Half-Blood Prince`, img:``, price:``,btn:`Add To Cart`},
 ]
 let mysterybookname = document.getElementById(`mysterybookname`)
 let classicsbookname = document.getElementById(`classicsbookname`)
