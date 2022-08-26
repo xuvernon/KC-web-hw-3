@@ -36,6 +36,10 @@ margin: 100px;
 justify-content: center;
 flex-direction: column;
 }
+.right a:hover{
+  background-color: #0077B6;
+  border-radius: 50%;
+}
 
 .searchbar{
     display: flex;
@@ -204,5 +208,6 @@ flex-direction: column;
 }
 .boxs img:hover{
   background-color:#795926;
+  border-radius: 50%;
 }
 
