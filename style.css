@@ -126,7 +126,7 @@ flex-direction: column;
     flex-wrap: wrap;
     height: 100vh;
   }
-.box{
+  .box{
     width:300px;
     height:400px;
     background-color: #BB9457;
@@ -144,6 +144,7 @@ flex-direction: column;
     border-radius: 10px;
     box-shadow: 10px 10px 5px #202020a5;
 }
+              
 .footer{
     height: 130px;
     width:100%;
