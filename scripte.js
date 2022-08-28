@@ -119,20 +119,20 @@ function btnf() {
      });
 }
 function removem(){
-    addtocart.remove()
+    addtocart.innerHTML ="";
     
 
  }
  function removec(){
 
-       addcart.remove()
+       addcart.innerHTML ="";
  
 
 
  }
  function removef(){
    
-       newcart.remove()
+       newcart.innerHTML = "";
 
 
  }
